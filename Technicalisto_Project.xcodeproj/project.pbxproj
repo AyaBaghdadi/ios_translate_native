@@ -76,6 +76,32 @@
 			path = localizeObjective;
 			sourceTree = "<group>";
 		};
+		10747B3D287B4E8000F6D1D1 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				10747B1E287B31C200F6D1D1 /* ChangeLanguageVC.swift */,
+				105EA15126EB84F500638DE4 /* ViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		10747B3E287B4E9200F6D1D1 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				10C288F226CEEC9E000724E6 /* SceneDelegate.swift */,
+				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		10747B3F287B4EA300F6D1D1 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				10747B37287B461B00F6D1D1 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
 		10C288E426CEEC9D000724E6 = {
 			isa = PBXGroup;
 			children = (
@@ -96,13 +122,11 @@
 		10C288EF26CEEC9E000724E6 /* Technicalisto_Project */ = {
 			isa = PBXGroup;
 			children = (
-				10747B37287B461B00F6D1D1 /* Localizable.strings */,
 				10747B29287B366E00F6D1D1 /* Technicalisto_Project-Bridging-Header.h */,
+				10747B3F287B4EA300F6D1D1 /* Strings */,
+				10747B3E287B4E9200F6D1D1 /* Delegate */,
+				10747B3D287B4E8000F6D1D1 /* VCs */,
 				10747B20287B363000F6D1D1 /* localizeLibrary */,
-				10747B1E287B31C200F6D1D1 /* ChangeLanguageVC.swift */,
-				105EA15126EB84F500638DE4 /* ViewController.swift */,
-				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
-				10C288F226CEEC9E000724E6 /* SceneDelegate.swift */,
 				10C288F626CEEC9E000724E6 /* Main.storyboard */,
 				10C288F926CEEC9F000724E6 /* Assets.xcassets */,
 				10C288FB26CEEC9F000724E6 /* LaunchScreen.storyboard */,
