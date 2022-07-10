@@ -5,12 +5,14 @@
 
 import UIKit
 
-let lang = UserDefaults.standard.object(forKey: "loclz") as? String
-
 extension UIView{
 open override func awakeFromNib() {
 super.awakeFromNib()
        
+    let lang = UserDefaults.standard.object(forKey: "loclz") as? String
+
+    if lang != nil {
+
     if lang == "ar"{
           
         self.semanticContentAttribute = .forceRightToLeft
@@ -22,12 +24,17 @@ super.awakeFromNib()
     }
     }
 }
+}
 
 
 
 extension UITableView{
 open override func awakeFromNib() {
 super.awakeFromNib()
+
+    let lang = UserDefaults.standard.object(forKey: "loclz") as? String
+
+    if lang != nil {
 
     if lang == "ar"{
             
@@ -38,6 +45,7 @@ super.awakeFromNib()
         self.semanticContentAttribute = .forceLeftToRight
         
     }
+    }
 }
 }
 
@@ -46,6 +54,10 @@ extension UICollectionView{
 open override func awakeFromNib() {
 super.awakeFromNib()
     
+    let lang = UserDefaults.standard.object(forKey: "loclz") as? String
+
+    if lang != nil {
+
     if lang == "en"{
                 
         self.transform = CGAffineTransform(scaleX: 1, y: 1)
@@ -55,6 +67,7 @@ super.awakeFromNib()
         self.transform = CGAffineTransform(scaleX: -1, y: 1)
 
     }
+    }
 }
 }
 
@@ -62,6 +75,10 @@ super.awakeFromNib()
 extension UICollectionViewCell{
 open override func awakeFromNib() {
 super.awakeFromNib()
+
+    let lang = UserDefaults.standard.object(forKey: "loclz") as? String
+
+    if lang != nil {
 
     if lang == "en"{
            
@@ -72,7 +89,7 @@ super.awakeFromNib()
         self.semanticContentAttribute = .forceLeftToRight
       
     }
-
+    }
 }}
 
 
@@ -80,11 +97,15 @@ extension UITextField {
 open override func awakeFromNib() {
 super.awakeFromNib()
            
+    let lang = UserDefaults.standard.object(forKey: "loclz") as? String
+
     if(self.textAlignment == .center){
     
         print("Center can not changed")
         
     }else{
+
+    if lang != nil {
 
     if lang == "ar"{
     
@@ -94,6 +115,7 @@ super.awakeFromNib()
            
         self.textAlignment = .left
            
+    }
     }
 }
 }
@@ -106,6 +128,9 @@ extension UITextView {
 open override func awakeFromNib() {
 super.awakeFromNib()
 
+    let lang = UserDefaults.standard.object(forKey: "loclz") as? String
+
+    if lang != nil {
     if lang == "ar"{
       
         self.textAlignment = .right
@@ -115,6 +140,7 @@ super.awakeFromNib()
         self.textAlignment = .left
            
     }
+    }
 }
 }
 
@@ -122,11 +148,15 @@ extension UILabel {
 open override func awakeFromNib() {
 super.awakeFromNib()
 
-          
+    let lang = UserDefaults.standard.object(forKey: "loclz") as? String
+
     if(self.textAlignment == .center){
     print("Center can not changed")
     
     }else{
+        
+        if lang != nil {
+
         if lang == "ar"{
                   
             self.textAlignment = .right
@@ -137,6 +167,8 @@ super.awakeFromNib()
              
         }
         }
+        
+    }
     }
 }
 

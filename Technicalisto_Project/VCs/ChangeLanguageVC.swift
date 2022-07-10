@@ -53,6 +53,7 @@ if lang != nil{
             self.englishBtn.setBackgroundImage(image, for: .normal)
         }
         
+        
         // UserDefaults
         UserDefaults.standard.set("ar", forKey: "loclz")
         // BundleLocalization

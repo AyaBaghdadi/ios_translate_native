@@ -199,10 +199,25 @@
             </objects>
             <point key="canvasLocation" x="-5996" y="526"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fQi-NL-agm">
+            <objects>
+                <navigationController storyboardIdentifier="Home" navigationBarHidden="YES" id="pSk-aS-5Rh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wGZ-TZ-3Pi">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3dG-mn-vhZ" kind="relationship" relationship="rootViewController" id="i2s-cP-bBk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TdY-WO-kto" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7648" y="526"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="NwE-Jf-A85">
             <objects>
-                <viewController storyboardIdentifier="Home" id="3dG-mn-vhZ" customClass="ViewController" customModule="Technicalisto_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3dG-mn-vhZ" customClass="ViewController" customModule="Technicalisto_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KA3-Pv-Bi3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -316,10 +331,11 @@
                             <constraint firstItem="lW6-wB-cmK" firstAttribute="top" secondItem="JVx-OD-Fjm" secondAttribute="bottom" constant="20" id="zf3-uG-fXR"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Ona-yx-J6R"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OqO-iK-Um6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6701.449275362319" y="525.66964285714289"/>
+            <point key="canvasLocation" x="-6909" y="526"/>
         </scene>
     </scenes>
     <resources>
