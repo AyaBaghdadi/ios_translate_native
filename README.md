@@ -1,7 +1,7 @@
 
 # Technicalisto
 
-## IOS How to Translate App in Many Language Native using [ BundleLocalization & UserDefaults ]
+## IOS How to Translate App in Many Language Native using [ BundleLocalization & UserDefaults & Objective-C files] 
 
 Note : 
        for easy understand firstly read this file ** once ** 
