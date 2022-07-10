@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		101F0C8C26DD575100FD13CC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8B26DD575100FD13CC /* HomeVC.swift */; };
-		101F0C8E26DD583400FD13CC /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8D26DD583400FD13CC /* HomeTVC.swift */; };
-		101F0C9026DD594200FD13CC /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101F0C8F26DD594200FD13CC /* HomeCVC.swift */; };
+		105EA15226EB84F500638DE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105EA15126EB84F500638DE4 /* ViewController.swift */; };
+		10747B1F287B31C200F6D1D1 /* ChangeLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10747B1E287B31C200F6D1D1 /* ChangeLanguageVC.swift */; };
+		10747B26287B363000F6D1D1 /* ForceLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10747B23287B363000F6D1D1 /* ForceLanguage.swift */; };
+		10747B27287B363000F6D1D1 /* BundleLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 10747B24287B363000F6D1D1 /* BundleLocalization.m */; };
+		10747B28287B363000F6D1D1 /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 10747B25287B363000F6D1D1 /* NSBundle+Localization.m */; };
+		10747B35287B461B00F6D1D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10747B37287B461B00F6D1D1 /* Localizable.strings */; };
 		10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F026CEEC9E000724E6 /* AppDelegate.swift */; };
 		10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C288F226CEEC9E000724E6 /* SceneDelegate.swift */; };
 		10C288F826CEEC9E000724E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C288F626CEEC9E000724E6 /* Main.storyboard */; };
@@ -19,9 +22,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		101F0C8B26DD575100FD13CC /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		101F0C8D26DD583400FD13CC /* HomeTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
-		101F0C8F26DD594200FD13CC /* HomeCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
+		105EA15126EB84F500638DE4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10747B1E287B31C200F6D1D1 /* ChangeLanguageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeLanguageVC.swift; sourceTree = "<group>"; };
+		10747B21287B363000F6D1D1 /* BundleLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleLocalization.h; sourceTree = "<group>"; };
+		10747B22287B363000F6D1D1 /* NSBundle+Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Localization.h"; sourceTree = "<group>"; };
+		10747B23287B363000F6D1D1 /* ForceLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceLanguage.swift; sourceTree = "<group>"; };
+		10747B24287B363000F6D1D1 /* BundleLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleLocalization.m; sourceTree = "<group>"; };
+		10747B25287B363000F6D1D1 /* NSBundle+Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Localization.m"; sourceTree = "<group>"; };
+		10747B29287B366E00F6D1D1 /* Technicalisto_Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Technicalisto_Project-Bridging-Header.h"; sourceTree = "<group>"; };
+		10747B2D287B435E00F6D1D1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		10747B2E287B435F00F6D1D1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		10747B30287B449500F6D1D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		10747B36287B461B00F6D1D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		10747B38287B461D00F6D1D1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		10C288ED26CEEC9E000724E6 /* Technicalisto_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Technicalisto_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C288F026CEEC9E000724E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C288F226CEEC9E000724E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +56,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10747B20287B363000F6D1D1 /* localizeLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				10747B2A287B371C00F6D1D1 /* localizeObjective */,
+				10747B23287B363000F6D1D1 /* ForceLanguage.swift */,
+			);
+			path = localizeLibrary;
+			sourceTree = "<group>";
+		};
+		10747B2A287B371C00F6D1D1 /* localizeObjective */ = {
+			isa = PBXGroup;
+			children = (
+				10747B24287B363000F6D1D1 /* BundleLocalization.m */,
+				10747B22287B363000F6D1D1 /* NSBundle+Localization.h */,
+				10747B25287B363000F6D1D1 /* NSBundle+Localization.m */,
+				10747B21287B363000F6D1D1 /* BundleLocalization.h */,
+			);
+			path = localizeObjective;
+			sourceTree = "<group>";
+		};
 		10C288E426CEEC9D000724E6 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +95,15 @@
 		10C288EF26CEEC9E000724E6 /* Technicalisto_Project */ = {
 			isa = PBXGroup;
 			children = (
+				10747B37287B461B00F6D1D1 /* Localizable.strings */,
 				10C2890426CEECAB000724E6 /* README.md */,
+				10747B29287B366E00F6D1D1 /* Technicalisto_Project-Bridging-Header.h */,
+				10747B20287B363000F6D1D1 /* localizeLibrary */,
+				10747B1E287B31C200F6D1D1 /* ChangeLanguageVC.swift */,
+				105EA15126EB84F500638DE4 /* ViewController.swift */,
 				10C288F026CEEC9E000724E6 /* AppDelegate.swift */,
 				10C288F226CEEC9E000724E6 /* SceneDelegate.swift */,
 				10C288F626CEEC9E000724E6 /* Main.storyboard */,
-				101F0C8B26DD575100FD13CC /* HomeVC.swift */,
-				101F0C8D26DD583400FD13CC /* HomeTVC.swift */,
-				101F0C8F26DD594200FD13CC /* HomeCVC.swift */,
 				10C288F926CEEC9F000724E6 /* Assets.xcassets */,
 				10C288FB26CEEC9F000724E6 /* LaunchScreen.storyboard */,
 				10C288FE26CEEC9F000724E6 /* Info.plist */,
@@ -117,6 +152,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 10C288E426CEEC9D000724E6;
 			productRefGroup = 10C288EE26CEEC9E000724E6 /* Products */;
@@ -133,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10747B35287B461B00F6D1D1 /* Localizable.strings in Resources */,
 				10C288FD26CEEC9F000724E6 /* LaunchScreen.storyboard in Resources */,
 				10C288FA26CEEC9F000724E6 /* Assets.xcassets in Resources */,
 				10C2890526CEECAB000724E6 /* README.md in Resources */,
@@ -147,21 +184,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				101F0C8C26DD575100FD13CC /* HomeVC.swift in Sources */,
+				10747B27287B363000F6D1D1 /* BundleLocalization.m in Sources */,
+				10747B26287B363000F6D1D1 /* ForceLanguage.swift in Sources */,
+				10747B1F287B31C200F6D1D1 /* ChangeLanguageVC.swift in Sources */,
 				10C288F126CEEC9E000724E6 /* AppDelegate.swift in Sources */,
-				101F0C9026DD594200FD13CC /* HomeCVC.swift in Sources */,
+				105EA15226EB84F500638DE4 /* ViewController.swift in Sources */,
 				10C288F326CEEC9E000724E6 /* SceneDelegate.swift in Sources */,
-				101F0C8E26DD583400FD13CC /* HomeTVC.swift in Sources */,
+				10747B28287B363000F6D1D1 /* NSBundle+Localization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		10747B37287B461B00F6D1D1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10747B36287B461B00F6D1D1 /* en */,
+				10747B38287B461D00F6D1D1 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		10C288F626CEEC9E000724E6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				10C288F726CEEC9E000724E6 /* Base */,
+				10747B2D287B435E00F6D1D1 /* ar */,
+				10747B30287B449500F6D1D1 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +220,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				10C288FC26CEEC9F000724E6 /* Base */,
+				10747B2E287B435F00F6D1D1 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -181,6 +232,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -242,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -306,6 +359,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AyaBaghdadi.Technicalisto-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Technicalisto_Project/Technicalisto_Project-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,6 +378,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "AyaBaghdadi.Technicalisto-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Technicalisto_Project/Technicalisto_Project-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

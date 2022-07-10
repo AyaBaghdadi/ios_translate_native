@@ -1,0 +1,42 @@
+
+/* Class = "UITextField"; placeholder = "Check in Center"; ObjectID = "8s3-fz-jcp"; */
+"8s3-fz-jcp.placeholder" = "تحقق في الوسط";
+
+/* Class = "UIButton"; configuration.title = "Learn With Technicalisto FCI"; ObjectID = "JVx-OD-Fjm"; */
+"JVx-OD-Fjm.configuration.title" = "تعلم مع Technicalisto FCI";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JVx-OD-Fjm"; */
+"JVx-OD-Fjm.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Technicalisto"; ObjectID = "LTU-rj-KL1"; */
+"LTU-rj-KL1.text" = "Technicalisto";
+
+/* Class = "UILabel"; text = "Change Language"; ObjectID = "MZr-0n-8qI"; */
+"MZr-0n-8qI.text" = "تغيير اللغة";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "SwU-qa-z1h"; */
+"SwU-qa-z1h.text" = "English";
+
+/* Class = "UILabel"; text = "IOS How to Translate App in Many Language Native "; ObjectID = "WTL-Um-FBt"; */
+"WTL-Um-FBt.text" = "IOS كيفية ترجمة التطبيق في العديد من اللغات الأصلية";
+
+/* Class = "UITextField"; placeholder = "Write your comment"; ObjectID = "dVK-4O-IMy"; */
+"dVK-4O-IMy.placeholder" = "اكتب تعليقك";
+
+/* Class = "UILabel"; text = "اللغة العربية"; ObjectID = "hhj-oI-nrK"; */
+"hhj-oI-nrK.text" = "اللغة العربية";
+
+/* Class = "UIButton"; configuration.title = "Follow Githup"; ObjectID = "lW6-wB-cmK"; */
+"lW6-wB-cmK.configuration.title" = "اتبع Githup";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lW6-wB-cmK"; */
+"lW6-wB-cmK.normalTitle" = "";
+
+/* Class = "UIButton"; configuration.title = "Translate "; ObjectID = "vJ1-aN-x97"; */
+"vJ1-aN-x97.configuration.title" = "ترجم ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "vJ1-aN-x97"; */
+"vJ1-aN-x97.normalTitle" = "";
+
+/* Class = "UILabel"; text = "Center IOS How to Translate App in Many Language Native "; ObjectID = "w6q-4A-J4p"; */
+"w6q-4A-J4p.text" = "مركز IOS كيفية ترجمة التطبيق في العديد من اللغات الأصلية";
