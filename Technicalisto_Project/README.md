@@ -20,7 +20,7 @@ Technicalisto_Project/Technicalisto_Project-Bridging-Header.h
 
 3. Add Group of localizeLibrary / localizeObjective.
 
-4. Add ForceLanguage.swift File for handle.
+4. Add ForceLanguage.swift File for handle & assets.
 
 5. In Bridging header add
 

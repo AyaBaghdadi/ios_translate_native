@@ -1,7 +1,6 @@
 
 //----------------------------------------------------------------------------------------------------
-//  ChangeLanguageVC
-//  Created by Aya Baghdadi 2022.
+//  This app is inspired by Aya Baghdadi” and copyright for Technicalisto 2022
 //----------------------------------------------------------------------------------------------------
 
 import UIKit
@@ -14,24 +13,29 @@ class ChangeLanguageVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if lang != nil{
-        if lang == "en"{
-        if let image = UIImage(named: "check_full_l") {
-            self.englishBtn.setBackgroundImage(image, for: .normal)
-        }
-        if let image = UIImage(named: "check_empty_l") {
-            self.arabicBtn.setBackgroundImage(image, for: .normal)
-        }
-        }else{
-        if let image = UIImage(named: "check_full_l") {
-            self.arabicBtn.setBackgroundImage(image, for: .normal)
-        }
-        if let image = UIImage(named: "check_empty_l") {
-            self.englishBtn.setBackgroundImage(image, for: .normal)
-        }
-        }
-        }
+
+        self.HandleAppear()
     }
+    
+func HandleAppear(){
+if lang != nil{
+    if lang == "en"{
+    if let image = UIImage(named: "check_full_l") {
+        self.englishBtn.setBackgroundImage(image, for: .normal)
+    }
+    if let image = UIImage(named: "check_empty_l") {
+        self.arabicBtn.setBackgroundImage(image, for: .normal)
+    }
+}else{
+    if let image = UIImage(named: "check_full_l") {
+        self.arabicBtn.setBackgroundImage(image, for: .normal)
+    }
+    if let image = UIImage(named: "check_empty_l") {
+        self.englishBtn.setBackgroundImage(image, for: .normal)
+    }
+    }
+    }
+}
     
     @IBAction func back(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
@@ -48,9 +52,12 @@ class ChangeLanguageVC: UIViewController {
         if let image = UIImage(named: "check_empty_l") {
             self.englishBtn.setBackgroundImage(image, for: .normal)
         }
+        
+        // UserDefaults
         UserDefaults.standard.set("ar", forKey: "loclz")
+        // BundleLocalization
         BundleLocalization.sharedInstance()?.language = "ar"
-
+        // Navigate
         self.NavigateToRootViewController()
 
     }
@@ -67,9 +74,12 @@ class ChangeLanguageVC: UIViewController {
         if let image = UIImage(named: "check_empty_l") {
             self.arabicBtn.setBackgroundImage(image, for: .normal)
         }
-        UserDefaults.standard.set("en", forKey: "loclz")
-        BundleLocalization.sharedInstance()?.language = "en"
         
+        // UserDefaults
+        UserDefaults.standard.set("en", forKey: "loclz")
+        // BundleLocalization
+        BundleLocalization.sharedInstance()?.language = "en"
+        // Navigate
         self.NavigateToRootViewController()
 
     }

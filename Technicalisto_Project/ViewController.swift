@@ -1,8 +1,7 @@
-//
-//  ViewController.swift
-//
-//  Created by Technicalisto.
-//
+
+//----------------------------------------------------------------------------------------------------
+//  This app is inspired by Aya Baghdadi” and copyright for Technicalisto 2022
+//----------------------------------------------------------------------------------------------------
 
 import UIKit
 
